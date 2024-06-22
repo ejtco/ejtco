@@ -263,23 +263,29 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  
 }
 
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
+  margin-bottom: 50px;
+
 }
 
 .header .logo h1 {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   font-family: var(--font-primary);
+  margin-bottom: 50px;
+
 }
 
 .header .logo h1 span {
   color: var(--color-primary);
+
 }
 
 /*--------------------------------------------------------------
@@ -1893,9 +1899,7 @@ section {
   position: absolute;
   inset: 0;
   z-index: 2;
-  margin-top: 200px;
-  padding-top: 50px;
-
+  margin-top: 100px;
 }
 
 @media (max-width: 768px) {
